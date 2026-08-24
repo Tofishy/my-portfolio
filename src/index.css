@@ -1,0 +1,174 @@
+/* --- Global Cute Aesthetic --- */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #241b21; /* Dark moody rose-tinted background */
+  color: #fce4ec; /* Soft pink-white text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+#root {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* --- Cute Navigation Bar --- */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0;
+  background-color: #382733;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px rgba(255, 182, 193, 0.15);
+  margin-bottom: 40px;
+  border: 1px solid #ffb6c133;
+}
+
+nav a {
+  color: #f8bbd0;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffb6c1;
+  color: #241b21;
+  transform: translateY(-2px);
+}
+
+/* Active Page Highlight (Cute Pink Pill) */
+nav a.active {
+  background-color: #ff69b4;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+}
+
+/* --- Typography --- */
+h1,
+h2 {
+  color: #ffb6c1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  color: #ff8fab;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff69b4;
+  text-decoration: underline;
+}
+
+/* --- Project & Skill Cards --- */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #382733;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 450px;
+  border: 1px solid #ffb6c122;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+li:hover {
+  transform: translateY(-5px) scale(1.02);
+  border-color: #ff69b4;
+  box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2);
+}
+
+/* --- Extra Cute Buttons --- */
+button {
+  background: linear-gradient(135deg, #ff8fab, #ff69b4);
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 4px 15px rgba(255, 105, 180, 0.4);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff69b4, #ff4785);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(255, 105, 180, 0.6);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+/* --- Contact Form Styling --- */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  background: #382733;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ffb6c122;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+label {
+  color: #ffb6c1;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ffb6c144;
+  background-color: #241b21;
+  color: #fce4ec;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #ff69b4;
+  box-shadow: 0 0 8px rgba(255, 105, 180, 0.3);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
