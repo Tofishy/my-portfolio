@@ -27,5 +27,3 @@ export const projects = [{
         link: "https://github.com/potatomato-commits/student-loan-system.git",
     },
 ];
-
-myUndefinedFunction();
